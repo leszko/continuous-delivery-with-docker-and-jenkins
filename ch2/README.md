@@ -30,8 +30,17 @@ The [sample3](sample3) project presents the usage of environment variables with 
 
 ### Exercise 1: Run CouchDB Docker container
 
+You can start the CouchDB database with the following command.
 
+    $ docker run -p 5984:5984 couchdb
+
+Then, check that its web interface is available at: [http://localhost:5984/\_utils/](http://localhost:5984/_utils/).
 
 ### Exercise 2: Create Docker image with REST service
 
 The [exercise2](exercise2) directory contains the source code for the Docker image with a REST web service. You can build and run it with the following commands.
+
+    $ docker build -t hello-service .
+    $ docker run -d -p 5000:5000 hello-service
+    $ curl http://localhost:5000/hello
+    Hello World!

@@ -1,2 +1,3 @@
-# continuous-delivery-with-docker-and-jenkins
-Code Samples and Exercises to the Book "Continuous Delivery with Docker and Jenkins"
+# Continuous Delivery with Docker and Jenkins
+
+This repository contains Code Samples and Exercise solutions for the book "Continuous Delivery with Docker and Jenkins".
