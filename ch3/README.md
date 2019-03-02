@@ -1,7 +1,7 @@
 # Chapter 3: Configuring Jenkins
 
 All the instructions assumes that:
-* You have Docker (Community Edition) installed and configured 
+* You have Docker (Community Edition) installed and configured
 * You have an account on Docker Hub
 * You are logged into Docker Hub (`docker login`)
 
