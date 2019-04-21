@@ -36,7 +36,7 @@ To check that the image was pushed, you can remove it from the Docker Daemon and
 
  The [sample2](sample2) includes a Spring Boot Application and the related Dockerfile. You can build it with the following commands.
 
-	$ ./gradle build
+	$ ./gradlew build
 	$ docker build -t calculator .
 
 To test if the Docker image is correct we can run it and use `curl` to make a GET request.
