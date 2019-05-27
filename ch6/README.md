@@ -25,7 +25,6 @@ To check the logs of a running pod, run the following command.
 
     $ kubectl logs pods/calculator-deployment-dccdf8756-h2l6c
 
-
 ### Code Sample 2: Exposing application
 
 The [sample2](sample2) includes a YAML configuration to create a service which exposes the deployment created in the Code Sample 1.
